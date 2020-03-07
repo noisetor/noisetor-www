@@ -2,7 +2,7 @@ jQuery(document).ready(function($) {
   $('#donation-graph').show();
   $.jqplot.config.enablePlugins = true;
   $.ajax({
-    url: 'http://cha-ching.noisebridge.net/v1/donations/list/1m/json/noisetor',
+    url: 'https://cha-ching.noisebridge.net/v1/donations/list/1m/json/noisetor',
     data: { },
     dataType: 'jsonp',
     cache: true,
